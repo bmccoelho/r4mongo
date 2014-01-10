@@ -10,5 +10,10 @@
   <%= @campaign.status %>
 </p>
 
+<p>
+  <strong>Notes:</strong>
+  <%= @campaign.notes %>
+</p>
+
 <%= link_to 'Edit', edit_campaign_path(@campaign) %> |
 <%= link_to 'Back', campaigns_path %>
