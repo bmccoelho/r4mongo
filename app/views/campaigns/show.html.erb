@@ -15,5 +15,10 @@
   <%= @campaign.notes %>
 </p>
 
+<p>
+  <strong>Submitted At:</strong>
+  <%= @campaign.submitted_at %>
+</p>
+
 <%= link_to 'Edit', edit_campaign_path(@campaign) %> |
 <%= link_to 'Back', campaigns_path %>
