@@ -24,7 +24,7 @@ defaults:
   # This setting can be overridden for individual deployments using
   # the command line options --migrate or --no-migrate.
   #
-  migrate: true
+  migrate: false
 
   # Default migration command to run when migrations are enabled.
   #
