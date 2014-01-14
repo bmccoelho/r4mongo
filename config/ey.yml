@@ -158,8 +158,6 @@ defaults:
   #
   #your_own_custom_key: custom info
 
-r4mongo_eu:
-  MONGOHQ_URL: mongodb://engineyard:30ca5cec1ccfa8309
 
 ####################################################################
 # Environment specific options.
@@ -174,4 +172,7 @@ environments:
   # These options will only apply to the EXAMPLE_ENVIRONMENT environment.
   #EXAMPLE_ENVIRONMENT:
     #precompile_unchanged_assets: true
+
+  r4mongo_eu:
+    MONGOHQ_URL: mongodb://engineyard:30ca5cec1ccfa8309
 
