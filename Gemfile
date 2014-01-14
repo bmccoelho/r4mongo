@@ -11,6 +11,9 @@ gem 'rails', '4.0.2'
 gem 'mongoid', '~> 4.0.0.alpha2', github: 'mongoid/mongoid'
 gem 'bson_ext'
 
+# engine yard setup
+gem 'ey_config'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
