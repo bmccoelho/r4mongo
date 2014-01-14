@@ -1,0 +1,7 @@
+defaults:
+  migrate: true
+#  migration_command: rake db:migrate
+  precompile_assets: true
+
+staging:
+  MONGOHQ_URL: 'mongodb://engineyard:30ca5cec1ccfa8309'
